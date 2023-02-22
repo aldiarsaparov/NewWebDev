@@ -5,6 +5,7 @@ export interface Product {
   price: number;
   description: string;
   rating: number;
+  url: string;
 }
 
 export const products = [
@@ -14,7 +15,8 @@ export const products = [
     name: 'iPhone XR',
     price: 799,
     description: 'A large phone with one of the best screens',
-    rating: 5
+    rating: 5,
+    url: 'https://kaspi.kz/shop/p/apple-iphone-xr-64gb-slim-box-chernyi-100691239/?c=750000000#!/item'
   },
 
   {
@@ -23,8 +25,8 @@ export const products = [
     name: 'iPhone 13 Mini',
     price: 699,
     description: 'A great phone with one of the best cameras',
-    rating: 4.5
-
+    rating: 4.5,
+    url: 'https://kaspi.kz/shop/p/apple-iphone-13-mini-128gb-belyi-102298521/?c=750000000#!/item'
   },
 
   {
@@ -33,7 +35,8 @@ export const products = [
     name: 'Nokia 3310',
     price: 199,
     description: 'The legenday and unkillable phone',
-    rating: 5
+    rating: 5,
+    url: 'https://kaspi.kz/shop/p/nokia-3310-sinii-8800447/?c=750000000#!/item'
   },
 
   {
@@ -42,7 +45,8 @@ export const products = [
     name: 'Ноутбук Apple MacBook Air 13 MGN63 серый',
     price: 1099,
     description: 'The very new MacBook Air with M1 chip.',
-    rating: 4.5
+    rating: 4.5,
+    url: 'https://kaspi.kz/shop/p/apple-macbook-air-13-mgn63-seryi-100797845/?c=750000000#!/item'
   },
 
   {
@@ -51,7 +55,8 @@ export const products = [
     name: 'HyperX Headset',
     price: 99,
     description: 'The gaming headset perfect for pro-gamers.',
-    rating: 4.4
+    rating: 4.4,
+    url: 'https://kaspi.kz/shop/p/hyperx-cloud-ii-khx-hscp-rd-krasnyi-101180989/?c=750000000#!/item'
   },
 
   {
@@ -60,7 +65,8 @@ export const products = [
     name: 'Apple iMac',
     price: 2099,
     description: 'The latest iMac with M2 Pro chip.',
-    rating: 4.7
+    rating: 4.7,
+    url: 'https://kaspi.kz/shop/p/apple-imac-24-2021-24m182sux-mgtf3-serebristyi-101530799/?c=750000000#!/item'
   },
 
   {
@@ -69,7 +75,8 @@ export const products = [
     name: 'Hyperx Mic',
     price: 299,
     description: 'Gaming microphone with minimalistic design.',
-    rating: 4.8
+    rating: 4.8,
+    url: 'https://kaspi.kz/shop/p/hyperx-quadcast-standalon-microphone-4p5p6aa-104266179/?c=750000000#!/item'
   },
 
   {
@@ -78,7 +85,8 @@ export const products = [
     name: 'Logitech G102',
     price: 39,
     description: 'Great mouse for its price.',
-    rating: 4.3
+    rating: 4.3,
+    url: 'https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-100956618/?c=750000000#!/item'
   },
 
   {
@@ -87,7 +95,8 @@ export const products = [
     name: 'Magic Keyboard v2',
     price: 299,
     description: 'The second generation of famous Magic Keyboard',
-    rating: 5
+    rating: 5,
+    url: 'https://kaspi.kz/shop/p/apple-magic-keyboard-2nd-generation-en-belyi-103957650/?c=750000000#!/item'
   },
   
   {
@@ -96,6 +105,7 @@ export const products = [
     name: 'Web camera',
     price: 39,
     description: 'High quality web camera.',
-    rating: 4
+    rating: 4,
+    url: 'https://kaspi.kz/shop/p/telycam-digicam-web-chernyi-100859156/?c=750000000#!/item'
   }
 ];
