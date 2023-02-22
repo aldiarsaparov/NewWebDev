@@ -16,6 +16,8 @@
         Description: {{ product.description }}
     </p>
 
+    <div class="rat"><h4>Rating: {{ product.rating }} </h4></div>
+
     <div class="butt">
         <button type="button" (click)="share('https://t.me/share/url?url=' + product.url)">
             Share
