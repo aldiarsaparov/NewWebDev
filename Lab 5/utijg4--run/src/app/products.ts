@@ -153,15 +153,15 @@ export const products = [
     url: 'https://kaspi.kz/shop/p/samsung-ue75au7100uxce-191-sm-chernyi-101496170/?c=750000000#!/item'
   },
   {
-    category: "TVs",
+    category: "Phones",
     likes: 0,
     id: 13,
-    image: 'assets/images/tv3.jpeg',
-    name: 'LG 32LQ630B6LA',
-    price: 299,
-    description: 'Brand new LED LG TV',
-    rating: 4.3,
-    url: 'https://kaspi.kz/shop/p/lg-32lq630b6la-81-sm-chernyi-104794530/?c=750000000#!/item'
+    image: 'assets/images/p4.jpeg',
+    name: 'Смартфон Google Pixel 6a 6 ГБ/128 ГБ зеленый',
+    price: 699,
+    description: 'Цвет зеленый, Объем встроенной памяти 128',
+    rating: 4.6,
+    url: 'https://kaspi.kz/shop/p/google-pixel-6a-6-gb-128-gb-zelenyi-106250320/?c=750000000#!/item'
   },
   {
     category: "TVs",
@@ -186,15 +186,15 @@ export const products = [
     url: 'https://kaspi.kz/shop/p/haier-43-smart-tv-s1-chernyi-108728233/?c=750000000#!/item'
   },
   {
-    category: "TVs",
+    category: "Phones",
     likes: 0,
     id: 16,
-    image: 'assets/images/tv6.jpeg',
-    name: 'LG 86QNED876QB',
-    price: 4249,
-    description: 'QNED display, 86 inches, 4K, Smart TV',
+    image: 'assets/images/p5.jpeg',
+    name: 'Смартфон Google Pixel 7 Pro 12 ГБ/128 ГБ серый',
+    price: 1249,
+    description: 'Цвет серый, Объем встроенной памяти 128',
     rating: 5,
-    url: 'https://kaspi.kz/shop/p/lg-86qned876qb-218-sm-chernyi-106485835/?c=750000000#!/item'
+    url: 'https://kaspi.kz/shop/p/google-pixel-7-pro-12-gb-128-gb-seryi-107066184/?c=750000000#!/item'
   },
   {
     category: "TVs",
@@ -239,5 +239,38 @@ export const products = [
     description: 'LED display, 55 inches, 4K Ultra, Smart TV',
     rating: 4.4,
     url: 'https://kaspi.kz/shop/p/lg-55uq91009ld-140-sm-chernyi-105537038/?c=750000000#!/item'
+  },
+  {
+    category: "Computers",
+    likes: 0,
+    id: 21,
+    image: 'assets/images/c3.jpeg',
+    name: 'Системный блок Impacto Gaming S черный',
+    price: 890,
+    description: 'Установленная ОС: Windows 11, процессор: Intel Core i5',
+    rating: 4.7,
+    url: 'https://kaspi.kz/shop/p/impacto-gaming-s-chernyi-108213662/?c=750000000#!/item'
+  },
+  {
+    category: "Computers",
+    likes: 0,
+    id: 22,
+    image: 'assets/images/c4.jpeg',
+    name: 'Системный блок Vega Limited 844083 черный',
+    price: 6480,
+    description: 'Установленная ОС: Windows 10, процессор: Intel Core i9',
+    rating: 5,
+    url: 'https://kaspi.kz/shop/p/vega-limited-844083-chernyi-108778429/?c=750000000'
+  },
+  {
+    category: "Computers",
+    likes: 0,
+    id: 23,
+    image: 'assets/images/c5.jpeg',
+    name: 'Системный блок EVOLUTION EVOLPROPC01 черный',
+    price: 6000,
+    description: 'Установленная ОС: нет, процессор: Intel Core i9',
+    rating: 4.7,
+    url: 'https://kaspi.kz/shop/p/evolution-evolpropc01-chernyi-108089938/?c=750000000'
   },
 ];

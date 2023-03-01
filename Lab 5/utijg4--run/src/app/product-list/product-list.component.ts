@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import { Product } from '../products';
+import { DELETEDITEMS } from 'src/globals';
 import { products } from '../products';
 
 @Component({
@@ -10,8 +11,27 @@ import { products } from '../products';
 export class ProductListComponent {
   products = [...products];
 
-  incrementLikes(id: number) {
-    products.filter(p => p.id === id).map(p => p.likes += 1)
+  incLikes = (itemId : number) => {
+    const updatedItemsList = this.products.map((product) => {
+      if(itemId === product.id){
+        return {...product, likes: product.likes + 1}
+      }else{
+        return product;
+      }
+    })
+    this.products = updatedItemsList;
+  }
+
+  deleteItem = (item: Product) => {
+    DELETEDITEMS.push(item)
+    const updatedItemsList = this.products.filter((product) => {
+      if (DELETEDITEMS.includes(product)) {
+        return false
+      }
+      else 
+        return true
+    })
+    this.products = updatedItemsList;
   }
 
   share(url: string) {

@@ -7,7 +7,7 @@
       <option>TVs</option>
       <option>Hardware</option>
     </select>
-  </div>
+</div>
 
 <div *ngFor ="let product of products" class="card">
 
@@ -35,11 +35,17 @@
 
     <div class="likes_cnt"><h4>Likes: {{ product.likes }} </h4></div>
     <div class="likes">
-        <button type="button">
+        <button type="button" (click)="incLikes(product.id)">
             Like
         </button>
     </div>
 
+    <div class="delete">
+        <button type="button" (click)="deleteItem(product)">
+            Delete
+        </button>
+    </div>
+    
 
     <!-- <app-product-alerts
         [product]="product"
