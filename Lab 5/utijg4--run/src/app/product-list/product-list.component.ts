@@ -9,6 +9,8 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
+  currentCategory!: string; 
+
   products = [...products];
 
   incLikes = (itemId : number) => {
@@ -20,6 +22,7 @@ export class ProductListComponent {
       }
     })
     this.products = updatedItemsList;
+    console.log(this.currentCategory)
   }
 
   deleteItem = (item: Product) => {
@@ -42,6 +45,18 @@ export class ProductListComponent {
     window.alert('You will be notified when the product goes on sale');
   }
 
+  setCategory(category: string) {
+    this.currentCategory = category
+
+    const updatedItemsList = products.filter((product) => {
+      if (product.category === this.currentCategory) {
+        return true
+      }
+      else 
+        return false
+    })
+    this.products = updatedItemsList;
+  }
 
 }
 

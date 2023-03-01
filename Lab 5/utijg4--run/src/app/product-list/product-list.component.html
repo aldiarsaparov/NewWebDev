@@ -1,13 +1,11 @@
 <h2>Products</h2>
 
-<div class="box">
-    <select>
-      <option>Computers</option>
-      <option>Phones</option>
-      <option>TVs</option>
-      <option>Hardware</option>
-    </select>
-</div>
+<ul>
+    <li><a (click)="setCategory('Computers')">Computers</a></li>
+    <li><a (click)="setCategory('TVs')">TVs</a></li>
+    <li><a (click)="setCategory('Phones')">Phones</a></li>
+    <li><a (click)="setCategory('Hardware')">Hardware</a></li>
+</ul>
 
 <div *ngFor ="let product of products" class="card">
 
