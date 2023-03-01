@@ -27,5 +27,5 @@ h3{
 
 .butt{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }

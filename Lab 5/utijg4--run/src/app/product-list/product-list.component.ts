@@ -10,6 +10,10 @@ import { products } from '../products';
 export class ProductListComponent {
   products = [...products];
 
+  incrementLikes(id: number) {
+    products.filter(p => p.id === id).map(p => p.likes += 1)
+  }
+
   share(url: string) {
     window.open(url, "_blank");
   }
@@ -17,6 +21,8 @@ export class ProductListComponent {
   onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
+
+
 }
 
 

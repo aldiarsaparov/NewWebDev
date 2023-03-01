@@ -6,10 +6,14 @@ export interface Product {
   description: string;
   rating: number;
   url: string;
+  category: string;
+  likes: number;
 }
 
 export const products = [
   {
+    category: "Phones",
+    likes: 0,
     id: 1,
     image: 'assets/images/iphone_xr.jpeg',
     name: 'iPhone XR',
@@ -20,6 +24,8 @@ export const products = [
   },
 
   {
+    category: "Phones",
+    likes: 0,
     id: 2,
     image: 'assets/images/iphone_mini.jpeg',
     name: 'iPhone 13 Mini',
@@ -30,6 +36,8 @@ export const products = [
   },
 
   {
+    category: "Phones",
+    likes: 0,
     id: 3,
     image: 'assets/images/nokia.jpeg',
     name: 'Nokia 3310',
@@ -40,6 +48,8 @@ export const products = [
   },
 
   {
+    category: "Computers",
+    likes: 0,
     id: 4,
     image: 'assets/images/macbook.jpeg',
     name: 'Ноутбук Apple MacBook Air 13 MGN63 серый',
@@ -50,6 +60,8 @@ export const products = [
   },
 
   {
+    category: "Hardware",
+    likes: 0,
     id: 5,
     image: 'assets/images/hyperx.jpeg',
     name: 'HyperX Headset',
@@ -60,6 +72,8 @@ export const products = [
   },
 
   {
+    category: "Computers",
+    likes: 0,
     id: 6,
     image: 'assets/images/imac.jpeg',
     name: 'Apple iMac',
@@ -70,6 +84,8 @@ export const products = [
   },
 
   {
+    category: "Hadrware",
+    likes: 0,
     id: 7,
     image: 'assets/images/microphone.jpeg',
     name: 'Hyperx Mic',
@@ -80,6 +96,8 @@ export const products = [
   },
 
   {
+    category: "Hardware",
+    likes: 0,
     id: 8,
     image: 'assets/images/mouse.jpeg',
     name: 'Logitech G102',
@@ -90,6 +108,8 @@ export const products = [
   },
 
   {
+    category: "Hardware",
+    likes: 0,
     id: 9,
     image: 'assets/images/keyboard.jpeg',
     name: 'Magic Keyboard v2',
@@ -100,6 +120,8 @@ export const products = [
   },
   
   {
+    category: "Hardware",
+    likes: 0,
     id: 10,
     image: 'assets/images/webcamera.jpeg',
     name: 'Web camera',
@@ -107,5 +129,115 @@ export const products = [
     description: 'High quality web camera.',
     rating: 4,
     url: 'https://kaspi.kz/shop/p/telycam-digicam-web-chernyi-100859156/?c=750000000#!/item'
-  }
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 11,
+    image: 'assets/images/tv1.jpeg',
+    name: 'Samsung UE43T5300AUXCE 109',
+    price: 599,
+    description: 'Full HD LED TV, 43 inches',
+    rating: 4.6,
+    url: 'https://kaspi.kz/shop/p/samsung-ue43t5300auxce-109-sm-chernyi-100182013/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 12,
+    image: 'assets/images/tv2.jpeg',
+    name: 'Samsung UE75AU7100UXCE 191',
+    price: 999,
+    description: '4K Smart TV, 73 inches',
+    rating: 4.9,
+    url: 'https://kaspi.kz/shop/p/samsung-ue75au7100uxce-191-sm-chernyi-101496170/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 13,
+    image: 'assets/images/tv3.jpeg',
+    name: 'LG 32LQ630B6LA',
+    price: 299,
+    description: 'Brand new LED LG TV',
+    rating: 4.3,
+    url: 'https://kaspi.kz/shop/p/lg-32lq630b6la-81-sm-chernyi-104794530/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 14,
+    image: 'assets/images/tv4.jpeg',
+    name: 'LG 50UQ81009LC',
+    price: 349,
+    description: '4K LED LG TV with ThinQ technology',
+    rating: 4.5,
+    url: 'https://kaspi.kz/shop/p/lg-50uq81009lc-127-sm-chernyi-104794768/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 15,
+    image: 'assets/images/tv5.jpeg',
+    name: 'Haier 43 SMART TV S1',
+    price: 749,
+    description: '4K Ultra, resolution: 3840x2160, Smart TV',
+    rating: 5,
+    url: 'https://kaspi.kz/shop/p/haier-43-smart-tv-s1-chernyi-108728233/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 16,
+    image: 'assets/images/tv6.jpeg',
+    name: 'LG 86QNED876QB',
+    price: 4249,
+    description: 'QNED display, 86 inches, 4K, Smart TV',
+    rating: 5,
+    url: 'https://kaspi.kz/shop/p/lg-86qned876qb-218-sm-chernyi-106485835/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 17,
+    image: 'assets/images/tv7.jpeg',
+    name: 'LG 65QNED7S6QA',
+    price: 870,
+    description: 'QNED display, 65 inches, 4K UHD, Smart TV',
+    rating: 4.7,
+    url: 'https://kaspi.kz/shop/p/lg-65qned7s6qa-chernyi-108089483/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 18,
+    image: 'assets/images/tv8.jpeg',
+    name: 'Xiaomi Mi TV A2 L50M7-EARU',
+    price: 690,
+    description: 'LED dusplay, 50 inches, 4K UHD, Smart TV',
+    rating: 4.1,
+    url: 'https://kaspi.kz/shop/p/xiaomi-mi-tv-a2-l50m7-earu-chernyi-108570383/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 19,
+    image: 'assets/images/tv9.jpeg',
+    name: 'LG 50NANO756QA',
+    price: 990,
+    description: 'LED display, 50 inches, 4K UHD, Smart TV',
+    rating: 4.4,
+    url: 'https://kaspi.kz/shop/p/lg-50nano756qa-127-sm-chernyi-105572443/?c=750000000#!/item'
+  },
+  {
+    category: "TVs",
+    likes: 0,
+    id: 20,
+    image: 'assets/images/tv10.jpeg',
+    name: 'LG 55UQ91009LD',
+    price: 1090,
+    description: 'LED display, 55 inches, 4K Ultra, Smart TV',
+    rating: 4.4,
+    url: 'https://kaspi.kz/shop/p/lg-55uq91009ld-140-sm-chernyi-105537038/?c=750000000#!/item'
+  },
 ];
