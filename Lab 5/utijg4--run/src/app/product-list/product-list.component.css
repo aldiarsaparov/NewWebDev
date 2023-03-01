@@ -30,7 +30,22 @@ h3{
     justify-content: left;
 }
 
-li {
-    text-decoration: none;
+.ctgs {
+    position: absolute;
 }
 
+.ctgs h2 {
+    font-size: 24px;
+}
+
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.delete {
+    position: relative;
+    left: 400px;
+    bottom: 125px;
+}

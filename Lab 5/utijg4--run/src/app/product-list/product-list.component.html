@@ -1,11 +1,13 @@
-<h2>Products</h2>
+<div class="ctgs">
+    <h2>Categories</h2>
 
-<ul>
-    <li><a (click)="setCategory('Computers')">Computers</a></li>
-    <li><a (click)="setCategory('TVs')">TVs</a></li>
-    <li><a (click)="setCategory('Phones')">Phones</a></li>
-    <li><a (click)="setCategory('Hardware')">Hardware</a></li>
-</ul>
+    <ul>
+        <li><a (click)="setCategory('Computers')">Computers</a></li>
+        <li><a (click)="setCategory('TVs')">TVs</a></li>
+        <li><a (click)="setCategory('Phones')">Phones</a></li>
+        <li><a (click)="setCategory('Hardware')">Hardware</a></li>
+    </ul>
+</div>
 
 <div *ngFor ="let product of products" class="card">
 
@@ -25,18 +27,20 @@
 
     <div class="rat"><h4>Rating: {{ product.rating }} </h4></div>
 
+    <div class="likes">
+        <button type="button" (click)="incLikes(product.id)">
+            Like
+        </button>
+    </div>
+
+    <div class="likes_cnt"><h4>Likes: {{ product.likes }} </h4></div>
+
     <div class="butt">
         <button type="button" (click)="share('https://t.me/share/url?url=' + product.url)">
             Share
         </button>
     </div>
 
-    <div class="likes_cnt"><h4>Likes: {{ product.likes }} </h4></div>
-    <div class="likes">
-        <button type="button" (click)="incLikes(product.id)">
-            Like
-        </button>
-    </div>
 
     <div class="delete">
         <button type="button" (click)="deleteItem(product)">
@@ -45,8 +49,4 @@
     </div>
     
 
-    <!-- <app-product-alerts
-        [product]="product"
-        (notify)="onNotify()">
-    </app-product-alerts> -->
 </div>

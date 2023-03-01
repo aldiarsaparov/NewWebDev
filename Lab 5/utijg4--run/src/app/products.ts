@@ -13,7 +13,7 @@ export interface Product {
 export const products = [
   {
     category: "Phones",
-    likes: 0,
+    likes: 114,
     id: 1,
     image: 'assets/images/iphone_xr.jpeg',
     name: 'iPhone XR',
@@ -25,7 +25,7 @@ export const products = [
 
   {
     category: "Phones",
-    likes: 0,
+    likes: 1,
     id: 2,
     image: 'assets/images/iphone_mini.jpeg',
     name: 'iPhone 13 Mini',
@@ -37,7 +37,7 @@ export const products = [
 
   {
     category: "Phones",
-    likes: 0,
+    likes: 999,
     id: 3,
     image: 'assets/images/nokia.jpeg',
     name: 'Nokia 3310',
@@ -49,7 +49,7 @@ export const products = [
 
   {
     category: "Computers",
-    likes: 0,
+    likes: 333,
     id: 4,
     image: 'assets/images/macbook.jpeg',
     name: 'Ноутбук Apple MacBook Air 13 MGN63 серый',
@@ -61,7 +61,7 @@ export const products = [
 
   {
     category: "Hardware",
-    likes: 0,
+    likes: 254,
     id: 5,
     image: 'assets/images/hyperx.jpeg',
     name: 'HyperX Headset',
@@ -73,7 +73,7 @@ export const products = [
 
   {
     category: "Computers",
-    likes: 0,
+    likes: 337,
     id: 6,
     image: 'assets/images/imac.jpeg',
     name: 'Apple iMac',
@@ -85,7 +85,7 @@ export const products = [
 
   {
     category: "Hadrware",
-    likes: 0,
+    likes: 205,
     id: 7,
     image: 'assets/images/microphone.jpeg',
     name: 'Hyperx Mic',
@@ -97,7 +97,7 @@ export const products = [
 
   {
     category: "Hardware",
-    likes: 0,
+    likes: 89,
     id: 8,
     image: 'assets/images/mouse.jpeg',
     name: 'Logitech G102',
@@ -109,7 +109,7 @@ export const products = [
 
   {
     category: "Hardware",
-    likes: 0,
+    likes: 199,
     id: 9,
     image: 'assets/images/keyboard.jpeg',
     name: 'Magic Keyboard v2',
@@ -118,10 +118,9 @@ export const products = [
     rating: 5,
     url: 'https://kaspi.kz/shop/p/apple-magic-keyboard-2nd-generation-en-belyi-103957650/?c=750000000#!/item'
   },
-  
   {
     category: "Hardware",
-    likes: 0,
+    likes: 19,
     id: 10,
     image: 'assets/images/webcamera.jpeg',
     name: 'Web camera',
@@ -132,7 +131,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 34,
     id: 11,
     image: 'assets/images/tv1.jpeg',
     name: 'Samsung UE43T5300AUXCE 109',
@@ -143,7 +142,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 61,
     id: 12,
     image: 'assets/images/tv2.jpeg',
     name: 'Samsung UE75AU7100UXCE 191',
@@ -154,7 +153,7 @@ export const products = [
   },
   {
     category: "Phones",
-    likes: 0,
+    likes: 221,
     id: 13,
     image: 'assets/images/p4.jpeg',
     name: 'Смартфон Google Pixel 6a 6 ГБ/128 ГБ зеленый',
@@ -165,7 +164,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 3,
     id: 14,
     image: 'assets/images/tv4.jpeg',
     name: 'LG 50UQ81009LC',
@@ -176,7 +175,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 137,
     id: 15,
     image: 'assets/images/tv5.jpeg',
     name: 'Haier 43 SMART TV S1',
@@ -187,7 +186,7 @@ export const products = [
   },
   {
     category: "Phones",
-    likes: 0,
+    likes: 484,
     id: 16,
     image: 'assets/images/p5.jpeg',
     name: 'Смартфон Google Pixel 7 Pro 12 ГБ/128 ГБ серый',
@@ -198,7 +197,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 32,
     id: 17,
     image: 'assets/images/tv7.jpeg',
     name: 'LG 65QNED7S6QA',
@@ -209,7 +208,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 56,
     id: 18,
     image: 'assets/images/tv8.jpeg',
     name: 'Xiaomi Mi TV A2 L50M7-EARU',
@@ -220,7 +219,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 88,
     id: 19,
     image: 'assets/images/tv9.jpeg',
     name: 'LG 50NANO756QA',
@@ -231,7 +230,7 @@ export const products = [
   },
   {
     category: "TVs",
-    likes: 0,
+    likes: 9,
     id: 20,
     image: 'assets/images/tv10.jpeg',
     name: 'LG 55UQ91009LD',
@@ -242,7 +241,7 @@ export const products = [
   },
   {
     category: "Computers",
-    likes: 0,
+    likes: 43,
     id: 21,
     image: 'assets/images/c3.jpeg',
     name: 'Системный блок Impacto Gaming S черный',
@@ -253,7 +252,7 @@ export const products = [
   },
   {
     category: "Computers",
-    likes: 0,
+    likes: 149,
     id: 22,
     image: 'assets/images/c4.jpeg',
     name: 'Системный блок Vega Limited 844083 черный',
@@ -264,7 +263,7 @@ export const products = [
   },
   {
     category: "Computers",
-    likes: 0,
+    likes: 547,
     id: 23,
     image: 'assets/images/c5.jpeg',
     name: 'Системный блок EVOLUTION EVOLPROPC01 черный',
@@ -272,5 +271,71 @@ export const products = [
     description: 'Установленная ОС: нет, процессор: Intel Core i9',
     rating: 4.7,
     url: 'https://kaspi.kz/shop/p/evolution-evolpropc01-chernyi-108089938/?c=750000000'
+  },
+  {
+    category: "Phones",
+    likes: 100,
+    id: 24,
+    image: 'assets/images/p6.jpeg',
+    name: 'Смартфон Huawei nova 10 SE 8 ГБ/128 ГБ зеленый',
+    price: 435,
+    description: 'Цвет зеленый, объем оперативной памяти 128',
+    rating: 4.1,
+    url: 'https://kaspi.kz/shop/p/huawei-nova-10-se-8-gb-128-gb-zelenyi-107221521/?c=750000000#!/item'
+  },
+  {
+    category: "Phones",
+    likes: 243,
+    id: 25,
+    image: 'assets/images/p7.jpeg',
+    name: 'Смартфон Huawei Nova Y90 4 ГБ/128 ГБ голубой',
+    price: 390,
+    description: 'Цвет голубой, объем оперативной памяти 128',
+    rating: 3.7,
+    url: 'https://kaspi.kz/shop/p/huawei-nova-y90-4-gb-128-gb-goluboi-106096409/?c=750000000#!/item'
+  },
+  {
+    category: "Computers",
+    likes: 95,
+    id: 26,
+    image: 'assets/images/c6.jpeg',
+    name: 'Системный блок Impacto GLACIER PC белый',
+    price: 990,
+    description: 'Установленная ОС: нет, процессор: Intel Core i7',
+    rating: 4.3,
+    url: 'https://kaspi.kz/shop/p/impacto-glacier-pc-belyi-104191528/?c=750000000#!/item'
+  },
+  {
+    category: "Computers",
+    likes: 104,
+    id: 27,
+    image: 'assets/images/c7.jpeg',
+    name: 'Системный блок Cassian Thunder черный',
+    price: 490,
+    description: 'Установленная ОС: нет, процессор: Intel Core i7',
+    rating: 4.6,
+    url: 'https://kaspi.kz/shop/p/cassian-thunder-chernyi-108734960/?c=750000000#!/item'
+  },
+  {
+    category: "Hardware",
+    likes: 37,
+    id: 28,
+    image: 'assets/images/h6.jpeg',
+    name: 'Клавиатура Ajazz STK61 белый',
+    price: 79,
+    description: 'Mechanical keyboard with RGB',
+    rating: 4.1,
+    url: 'https://kaspi.kz/shop/p/ajazz-stk61-belyi-106268306/?c=750000000#!/item'
+  },
+  {
+    category: "Hardware",
+    likes: 13,
+    id: 29,
+    image: 'assets/images/h7.jpeg',
+    name: 'Клавиатура Defender Dark Arts GK-375 черный',
+    price: 39,
+    description: 'Compact RGB keyboard',
+    rating: 4.4,
+    url: 'https://kaspi.kz/shop/p/defender-dark-arts-gk-375-chernyi-103727520/?c=750000000#!/item'
   },
 ];
