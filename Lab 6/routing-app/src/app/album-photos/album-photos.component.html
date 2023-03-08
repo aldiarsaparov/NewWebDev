@@ -1,1 +1,6 @@
-<p>album-photos works!</p>
+<div *ngFor="let photo of photos">
+  {{ photo.id }}
+  {{ photo.title }}
+  {{ photo.url }}
+  <img src= "{{ photo.url }}">
+</div>
