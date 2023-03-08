@@ -2,4 +2,5 @@
   <a routerLink="/albums/{{ album.id }}">
     {{ album.title }}
   </a>
+  <button (click)="deleteItem(album.id)">Delete</button>
 </div>

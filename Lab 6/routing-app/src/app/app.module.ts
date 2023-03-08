@@ -11,6 +11,7 @@ import { AlbumPhotosComponent } from './album-photos/album-photos.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AlbumsService } from './album-service.service';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [AlbumsService],
   bootstrap: [AppComponent]

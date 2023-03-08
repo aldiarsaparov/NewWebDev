@@ -1,1 +1,6 @@
-<p>album-detail works!</p>
+<div></div>
+<button routerLink="/albums">Back</button>
+<p>{{ al.title }}</p>
+
+<input [(ngModel)]="inputTextTitle" type="text">
+<button (click)="edit()">Edit</button>
