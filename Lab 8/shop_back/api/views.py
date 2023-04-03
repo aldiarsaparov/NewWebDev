@@ -44,12 +44,16 @@ def get_categories(request):
     return HttpResponse(data, content_type='application/json')
 
 def get_category(request, pk):
-    try:
-        target_category = Category.objects.get(pk=pk)
-        data = serializers.serialize('json', [target_category])
-        return JsonResponse(data, safe=False)
-    except Category.DoesNotExist:
-        return JsonResponse({'error' : 'Category is not found'}) 
+    # try:
+    target_category = Category.objects.get(pk=pk)
+    #     data = serializers.serialize('json', [target_category])
+    #     return JsonResponse(data, safe=False)
+    # except Category.DoesNotExist:
+    #     return JsonResponse({'error' : 'Category is not found'}) 
+    # target_category = Category.objects.get(pk=pk)
+    # data = serializers.serialize('json', [target_category])
+    # return JsonResponse(data, safe=False)
+    return HttpResponse(target_category)
       
 def get_category_products(request, id):
     try:
