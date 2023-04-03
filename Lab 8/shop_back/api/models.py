@@ -14,10 +14,23 @@ class Product(models.Model):
     def __str__(self):
         return self.name
     
+    def to_json(self):
+        return {'name': self.name,
+                'price': self.price,
+                'description': self.description,
+                'count': self.count,
+                'is_active': self.is_active
+                }
+
 class Category(models.Model):
     name = models.CharField(max_length=100)
     products = models.ManyToManyField(Product)
 
     def __str__(self):
         return self.name
+    
+    def to_json(self):
+        return {'name': self.name,
+                'products': self.products
+                }
     
