@@ -16,7 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from api.views import vacancies, companies, company, get_company_vacancies, vacancy, get_top_ten_vacancies 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/companies/', companies),
+    path('api/companies/<int:id>/', company),
+    path('api/companies/<int:id>/vacancies/', get_company_vacancies),
+    path('api/vacancies/', vacancies),
+    path('api/vacancies/<int:id>/', vacancy),
+    path('api/vacancies/top_ten/', get_top_ten_vacancies),
 ]

@@ -11,9 +11,9 @@ def companies(request):
 
     return JsonResponse(companies,safe=False)
 
-def company(request, pk):
+def company(request, id):
     try:
-        company_object = Company.objects.get(id=pk)
+        company_object = Company.objects.get(id=id)
         return JsonResponse(company_object.to_json())
     except Company.DoesNotExist:
         return JsonResponse({"error": "Company not found"}, status=404)
