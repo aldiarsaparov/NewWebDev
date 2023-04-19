@@ -9,8 +9,8 @@ from .models import Company, Vacancy
 from .serializers import CompanySer, CompanyModSer
 
 # Create your views here.
-# function based views
 
+# function based views
 def vacancy(request, id):
     try:
         vacancy = Vacancy.objects.get(id=id).to_json()
@@ -22,7 +22,7 @@ def vacancies(request):
     vacancies_obj = Vacancy.objects.all()
     vacancies = VacancySer(vacancies_obj, many=True)
 
-    return JsonResponse(vacancies.data, safe=True)
+    return JsonResponse(vacancies.data, safe=False)
 
 def get_top_ten_vacancies(request):
     top_vacancies_obj = Vacancy.objects.filter(~Q(salary=None)).order_by('-salary')[:10]
@@ -30,8 +30,9 @@ def get_top_ten_vacancies(request):
     
     return JsonResponse(top_vacancies.data, safe=False)
 
-# class based views
 
+
+# class based views
 class Companies(View):
     def get(self, request, pk):
         companies_objs = Company.objects.all()
