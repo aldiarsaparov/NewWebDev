@@ -16,8 +16,6 @@ class CompanyModSer(serializers.ModelSerializer):
 
 
 
-
-
 class VacancySer(serializers.Serializer):
     id = serializers.IntegerField()
     name = serializers.CharField(max_length=255)
@@ -27,7 +25,7 @@ class VacancySer(serializers.Serializer):
     # numbers on the front side
     # company = serializers.PrimaryKeyRelatedField(queryset=Company.objects.all())
     company = CompanySer()
-    
+
 class VacancyModSer(serializers.ModelSerializer):
     class Meta:
         model = Vacancy
